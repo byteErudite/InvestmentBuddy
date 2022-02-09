@@ -1,0 +1,69 @@
+html,
+body {
+	height: 100%;
+}
+
+.portfolio-history-table-main {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 10%;
+	left: 5%;
+	
+}
+
+table {
+	width: 800px;
+	height: auto;
+	border-collapse: collapse;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+}
+
+th {
+    padding: 15px;
+    background-color: #55608f;
+	color: #fff;
+}
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+    text-align: left;
+}
+
+th {
+	text-align: left;
+}
+
+.portfolio-histroy-header{
+ display: flex;
+ flex-direction: row;
+}
+
+.pagination-layout {
+    margin-top: 20px;
+    left:20%;
+	margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+
+
+/* td :hover {
+    transform: scale(1.14);
+    width: 450px;
+  }   */
+

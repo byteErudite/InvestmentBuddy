@@ -1,0 +1,28 @@
+.reward-points-info-main {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.reward-points-info-image {
+    width: 63px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.reward-points-info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.reward-points-info-content-value1 {
+    font-size: 12px;
+    color: #00000080;
+    font-weight: 600;
+}
+
+.reward-points-info-content-value2 {
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,61 @@
+.card-details-row-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFF;
+    width: 260px;
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.card-details-row-bank-image {
+    width: 45px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.card-details-row-col-1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.card-details-row-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+
+.card-details-row-card-number {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-details-row-due-amount {
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+.card-details-row-due-date {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-details-row-remove {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex: 1;
+    /* margin-right: 4px; */
+}

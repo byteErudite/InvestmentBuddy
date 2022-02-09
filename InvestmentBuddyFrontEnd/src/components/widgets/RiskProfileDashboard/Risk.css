@@ -1,0 +1,32 @@
+.risk-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.risk-text{
+    width: 400px;
+    height: 100px;
+    margin-left: 130px;
+    font-size: large;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.risk-container-card{
+ margin-top: 20px;
+ margin-left: 40px;
+ background-color: cyan;
+ width: 700px;
+}
+
+.assessment-button{
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 190px;
+    border-radius: 10px;
+    background-color: darkgreen;
+  width: 250px;
+  height: 60px;
+}

@@ -1,0 +1,99 @@
+
+.signin-signup-right-main {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.signin-signup-heading {
+    font-size: 37px;
+    font-weight: 800;
+    color: #282828;
+    margin-bottom: 10px;
+}
+
+.signin-signup-sub-heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.signin-signup-sub-heading-static {
+    margin-right: 10px;
+    color: #404040;
+}
+
+.signin-signup-sub-heading-log-in {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signin-signup-field-wrapper {
+    margin-bottom: 20px;
+}
+
+.signin-signup-field-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #505050;
+}
+
+.signin-signup-field-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;   
+    border: 2.5px solid #d3d3d3;
+    border-radius: 8px; 
+}
+
+.signin-signup-field-input {
+    padding: 12px;
+    padding-left: 25px;
+    width: 290px;
+    border:0;
+    font-size: 16px;
+    background: transparent;    
+}
+
+.signin-signup-field-input:focus{
+    outline: none;
+  }
+
+.signin-signup-field-icon {
+    flex: 1;
+    padding-right: 25px;
+}
+
+.signin-signup-submit-button{
+    margin-top: 40px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 8px;    
+    cursor: pointer;
+}
+
+.signin-signup-google-button {
+    margin-top: 10px;   
+    border: 2.5px solid #A9A9A9;
+    border-radius: 8px; 
+    font-size: 16px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    text-align: center;
+    cursor: pointer;
+}
+
+.signin-signup-google-button-icon {
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+

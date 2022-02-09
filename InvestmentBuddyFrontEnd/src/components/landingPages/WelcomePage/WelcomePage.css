@@ -1,0 +1,101 @@
+.welcome-main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;    
+}
+
+.welcome-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    padding-left: 55px;
+    margin-bottom: 80px;
+}
+
+.welcome-logo {
+    width: 45px;
+    margin-right: 15px;
+}
+
+.welcome-logo-title{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    margin-bottom: 70px;
+}
+
+.welcome-content-text {
+    font-size: 43px;
+    font-weight: 800;
+    color: #0C0C0C;
+}
+
+.welcome-content-sub-text {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #606060;
+}
+
+.welcome-ssn-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    margin-bottom: 30px;
+}
+
+.welcome-content-input-ssn{
+    border:0;
+    border-bottom: 2px solid;
+    background: transparent;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 25px;
+    width: 140px;
+}
+
+.welcome-content-input-ssn::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 0px;
+}
+
+.welcome-content-input-ssn:focus{
+    outline: none;
+  }
+
+.welcome-content-sign-up {
+    color: #FFF;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.welcome-signin-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+}
+
+.welcome-content-sign-in-heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.welcome-content-sign-in {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: fit-content;
+}

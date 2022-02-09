@@ -1,0 +1,75 @@
+.questionnaire-main-outer {
+  display: flex;
+
+}
+
+.questionnaire-main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 130px;
+}
+
+.questionnaire-header{
+  display: flex;
+  flex-direction: row;
+}
+.questionnaire-heading-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.questionnaire-header {
+  margin-bottom: 50px;
+  margin-top: 45px;
+  align-items: flex-end;
+}
+
+.questionnaire-heading{
+  font-size: 33px;
+  margin-right: 365px;
+}
+
+.questionnaire-count {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: end;  
+
+}
+
+.questionnaire-count-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionnaire-questions-outer {
+  height: 430px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.questionnaire-questions {
+  height: 99%;
+  overflow: auto;
+}
+
+.questionnaire-questions::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.questionnaire-questions::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+ 
+.questionnaire-questions::-webkit-scrollbar-thumb {
+  background-color: #00000088;
+  outline: 1px solid slategrey;
+}
+
+.questionanire-submit-button-wrapper {
+  margin-right: 35px;
+  align-self: flex-end;
+}
+
+.questionanire-submit-button{ 
+  width: 150px;
+}

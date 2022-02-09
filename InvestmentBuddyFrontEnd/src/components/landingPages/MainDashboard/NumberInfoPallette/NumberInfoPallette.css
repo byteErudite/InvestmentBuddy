@@ -1,0 +1,25 @@
+.number-info-pallette-main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    width: 90px;
+}
+
+.number-info-pallette-number {
+    font-size: 39px;
+    font-weight: 600;
+    flex: 1;
+    margin-bottom: 15px;
+}
+
+.number-info-pallette-text {
+    font-size: 12px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}

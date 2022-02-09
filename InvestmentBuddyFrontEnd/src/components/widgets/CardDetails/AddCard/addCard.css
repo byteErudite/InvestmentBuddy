@@ -1,0 +1,190 @@
+.add-card-form-modal {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 85px;
+  padding-bottom: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  background-color: white;
+  text-align: center;
+  width: fit-content;
+  z-index: 10;
+  
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.add-card-form-heading-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.add-card-form-close {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: -50px;
+  margin-top: -50px;
+  font-size: 22px;
+  cursor: pointer;
+
+}
+
+.add-card-form-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.add-card-form-heading-title {
+  font-size: 27px;
+  font-weight: 800;
+  padding-bottom: 2px;
+}
+
+.add-card-form-heading-sub-title {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #00000085;
+}
+
+.add-card-form-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-card-form-number-logo-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add-card-form-date-cvv-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add-card-form-card-data-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 22px;
+}
+
+.add-card-form-field-heading{
+  font-weight: 600;
+  font-size: 11px;
+  color: #00000085;
+}
+
+.add-card-form-field-input {
+  border: 0px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+}
+
+.add-card-form-field-input:focus, input:focus{
+  outline: none;
+}
+
+.add-card-form-date {
+  width: 170px;
+}
+
+.add-card-date-input {
+  width: 90px;
+}
+
+
+.add-card-form-cvv-input{
+  width: 50px;
+}
+
+.add-card-form-bank-logo {
+  width: 60px;
+  margin-left: 25px;
+  margin-top: -13px;
+}
+
+.add-card-form-card-icon {
+  margin-top: -10px;
+}
+
+.add-card-form-submit {
+  flex: 1;
+  font-size: 44px;
+  margin-right: -210px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+/* 
+.btn {
+    font: inherit;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: #1E3472;
+    color: white;
+    border: 1px solid #1C2542;
+    margin: auto;
+  justify-content: center;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #9c1458;
+    border-color: #9c1458;
+  }
+  
+  .btn--alt {
+    background-color: transparent;
+    color: #800040;
+  }
+  
+  .btn--alt:hover {
+    background-color: #f8dae9;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 20rem;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .modal {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 40rem;
+    z-index: 10;
+    position: fixed;
+    top: 20vh;
+    left: calc(50% - 15rem);
+  }
+  
+  .backdrop {
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  } */

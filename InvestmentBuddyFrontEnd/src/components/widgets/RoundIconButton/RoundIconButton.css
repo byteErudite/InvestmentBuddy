@@ -1,0 +1,36 @@
+.round-icon-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    border-radius: 12px;
+    padding-left: 8px;
+    width: 129.5px;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    
+}
+
+.round-icon-button-icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 15px;
+    width: 14px;
+    height: 13px;
+    margin-right: 18px;
+    margin-left: 1px;
+}
+
+.round-icon-button-icon {
+    font-size: 11px;
+
+}
+
+.round-icon-button-text{
+    font-size: 13px;
+    font-weight: 500;
+}

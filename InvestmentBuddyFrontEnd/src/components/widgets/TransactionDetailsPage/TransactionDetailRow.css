@@ -1,0 +1,101 @@
+.transaction-history-detail-card-outer {
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+}
+
+.trans-hist-row-main {
+    display: flex;
+    direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.trans-hist-rown-bank-image{
+    width: 48px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.trans-hist-row-col-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+}
+
+.list-icon{
+    margin-right: 20;
+    margin-top: 12
+}
+
+.trans-hist-row-card-number {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.transaction-history-detail-card {
+    margin-top: 20px;
+    width: 500px;
+    height: 450px;
+    margin-left: 200px;
+}
+
+.trans-hist-row-id {
+    font-size: 16px;
+    font-weight: 600;
+    width: 40px;
+}
+
+.trans-hist-row-payment-info {
+    display: flex;
+    align-items: center;
+}
+
+.trans-hist-row-transaction-type {
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.trans-hist-row-floating-dot {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.trans-hist-row-paid-date {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.trans-hist-row-col-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.trans-hist-row-amount-paid {
+    font-size: 17px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.transaction-histroy-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.trans-hist-row-points-earned {
+    font-size: 12px;
+    font-weight:600;
+}
+
+.pagination-layout {
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

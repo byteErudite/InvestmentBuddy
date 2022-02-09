@@ -1,0 +1,34 @@
+.user-welcome-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.user-welcome-user-image {
+    width: 70px;
+    align-self: center;
+    z-index: 1;
+}
+
+.user-welcome-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #a5c803;
+    border-radius: 14px;
+    margin-top: -35px;
+    padding-top: 40px;
+    z-index: 0;
+}
+
+.user-welcome-salutation {
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.user-welcome-name {
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 10px;
+}

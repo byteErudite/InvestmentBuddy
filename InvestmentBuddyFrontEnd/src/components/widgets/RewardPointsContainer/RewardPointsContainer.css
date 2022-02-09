@@ -1,0 +1,100 @@
+.reward-points-container-main {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);;
+}
+
+.reward-points-container-heading {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.reward-points-container-heading-icon {
+    display: block;
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.reward-points-container-title {
+    margin-top: 2px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.reward-points-container-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.reward-points-container-profile-image {
+    width: 75px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.reward-points-container-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.reward-points-container-profile-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.reward-points-container-profile-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reward-points-container-profile-salutation {
+    font-size: 14px;
+    color: #00000080;
+    font-weight: 600;
+}
+
+.reward-points-container-profile-name {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.reward-points-container-row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.reward-points-container-row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.reward-points-container-amount-left {
+    font-size: 11px;
+    width: 40%;
+    font-weight: 600;
+}

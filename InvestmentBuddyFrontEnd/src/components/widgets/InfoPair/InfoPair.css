@@ -1,0 +1,15 @@
+.info-pair-main {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: flex-start;
+}
+
+.info-pair-value1 {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.info-pair-value2 {
+    font-size: 15px;
+}

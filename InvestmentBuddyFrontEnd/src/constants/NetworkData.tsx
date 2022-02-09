@@ -1,0 +1,13 @@
+export const HOSTNAME = 'localhost'
+export const PORT = '8080'
+export const FORWARD_SLASH = '/';
+export const SERVER_URL = 'http://' + HOSTNAME + ':' + PORT;
+export const AUTH_LOGIN = 'auth/login'
+export const AUTH_SIGNUP = 'auth/signup'
+export const CARD = 'card';
+export const TRANSACTION = 'transaction';
+export const USER_SCORE = 'userScore';
+export const REWARDS = 'rewards';
+export const INVESTEMENT = 'investment';
+export const FUNDS = 'funds';
+export const ALL = 'all'

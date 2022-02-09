@@ -1,0 +1,6 @@
+.button-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}

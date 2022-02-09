@@ -1,0 +1,122 @@
+.profile-score-main-outer {
+    display: flex;
+  
+  }
+  
+  .profile-score-main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+  }
+  
+  .profile-score-header{
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-score-heading-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-score-header {
+    margin-bottom: 80px;
+    margin-top: 60px;
+    align-items: flex-end;
+  }
+  
+  .profile-score-heading{
+    font-size: 33px;
+    margin-right: 365px;
+  }
+  
+  .profile-score-count {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: end;  
+  
+  }
+
+  .profile-score-content {
+      display: flex;
+      margin-left: 15%;
+  }
+
+  .profile-score-content-right {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .profile-score-performance {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(219, 221, 250);
+      padding: 40px;
+      padding-bottom: -200px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 14px;
+      margin-right: 10px;
+  }
+
+  .profile-score-number {
+      display: flex;
+      flex-direction: column;
+      font-size: 64px;
+      padding:30px;
+      background-color: rgb(176, 185, 219);
+      border-radius: 14px;
+      font-weight: 500;
+      margin-bottom: 10px;
+  }
+
+  .profile-score-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    padding:40px;
+    background-color: rgb(176, 185, 219);
+    border-radius: 14px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-score-key-score {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-score-key-profile {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.profile-score-footer {
+    width: 545px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15%;
+    font-weight: 600;
+    color: white;
+}
+.profile-score-retake-assessment {
+    background-color: rgb(176, 185, 219);
+    flex: 1;
+    padding: 15px;  
+    margin-right: 3px;  
+    border-radius: 14px;    
+    cursor: pointer;
+}
+
+.profile-score-dashboard {
+    background-color: rgb(176, 185, 219);    
+    flex: 1;
+    padding: 15px;
+    margin-left: 3px;
+    border-radius: 14px;   
+    cursor: pointer; 
+}
