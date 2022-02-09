@@ -7,7 +7,7 @@ import {
   qaTemplate,
   QUESTIONS,
   intialScore,
-} from "../../model-chakresh/Questionare-static-content";
+} from "../../modelQuestionaire/Questionare-static-content";
 import InvestingBro from "../Util/InvestingBroImage";
 import "./Questionare.css";
 import Button from '@material-ui/core/Button';

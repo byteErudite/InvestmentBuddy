@@ -1,4 +1,4 @@
-import { qaTemplate } from "../../../model-chakresh/Questionare-static-content";
+import { qaTemplate } from "../../../modelQuestionaire/Questionare-static-content";
 import React from "react";
 import Slider from "@material-ui/core/Slider";
 import "./Question.css";

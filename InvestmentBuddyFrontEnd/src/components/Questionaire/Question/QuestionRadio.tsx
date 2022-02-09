@@ -2,7 +2,7 @@ import {
   qaTemplate,
   intialSelection,
   SCORES
-} from "../../../model-chakresh/Questionare-static-content";
+} from "../../../modelQuestionaire/Questionare-static-content";
 import "./Question.css";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
